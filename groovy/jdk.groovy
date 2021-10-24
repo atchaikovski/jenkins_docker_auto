@@ -7,8 +7,8 @@ def List<JDK> installations = []
 
 javaTools=[
            ['name':'jdk8', 'url':'file:/var/jenkins_home/downloads/jdk-8u131-linux-x64.tar.gz', 'subdir':'jdk1.8.0_131'],
-           ['name':'jdk7', 'url':'file:/var/jenkins_home/downloads/openjdk-7u75-b13-linux-x64-18_dec_2014.tar.gz', 'subdir':'jdk1.7'],
-           ['name':'jdk9', 'url':'file:/var/jenkins_home/downloads/openjdk-9.0.1_-linux-x64_bin.tar.gz', 'subdir':'jdk1.9']
+           ['name':'jdk7', 'url':'file:/var/jenkins_home/downloads/openjdk-7u75-b13-linux-x64-18_dec_2014.tar.gz', 'subdir':'java-se-7u75-ri'],
+           ['name':'jdk9', 'url':'file:/var/jenkins_home/downloads/openjdk-9.0.1_linux-x64_bin.tar.gz', 'subdir':'jdk-9.0.1']
           ]
 
 javaTools.each { javaTool ->
